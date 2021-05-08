@@ -1,0 +1,15 @@
+<nav>
+  <img src="favicon.ico" alt="{{ title }}" />
+  <span
+    ><span class="heavy">{{ leftTitle }}</span
+    ><span>{{ rightTitle }}</span></span
+  >
+</nav>
+<main>
+  <h3>{{ subtitle }}</h3>
+  <app-card-container
+    (messageEvent)="receiveMessage($event)"
+  ></app-card-container>
+</main>
+
+<router-outlet></router-outlet>
