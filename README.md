@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repository is now **archived**, the development will not proceed any further.
+
 # Hit or not
 
 Hit or not is a mini game in which two songs are displayed each time and you can choose your favourite one.
